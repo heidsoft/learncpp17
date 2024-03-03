@@ -9,6 +9,3 @@ set(CMAKE_CXX_COMPILER "clang++")
 add_subdirectory(feature1)
 add_subdirectory(feature2)
 
-add_executable(learncpp17 main.cpp
-        feature1/feature1.cpp
-        feature2/feature2.cpp)
