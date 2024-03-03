@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.21)
+project(learncpp17)
+set(CMAKE_CXX_STANDARD 17)
+message("aaaaaaaaaaaaaaaaaa")
+message(${CMAKE_CXX_COMPILER})
+message("bbbbbbbbbbbbbbbbbb")
+set(CMAKE_CXX_COMPILER "clang++")
+
+add_subdirectory(feature1)
+add_subdirectory(feature2)
+
+add_executable(learncpp17 main.cpp
+        feature1/feature1.cpp
+        feature2/feature2.cpp)
