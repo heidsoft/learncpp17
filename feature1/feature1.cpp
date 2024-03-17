@@ -54,6 +54,11 @@ int main() {
     std::cout << MySQLTypeToString(type1) << std::endl;
     std::cout << MySQLTypeToString(ZLIB) << std::endl;
     std::cout << MySQLTypeToString(LZ4) << std::endl;
+
+    cout<< "Standard Clib:" << __STDC_HOSTED__ << endl;
+    cout<< "Standard C:" << __STDC__ << endl;
+
+
     return 0;
 }
 

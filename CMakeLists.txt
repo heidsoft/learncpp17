@@ -8,4 +8,5 @@ set(CMAKE_CXX_COMPILER "clang++")
 
 add_subdirectory(feature1)
 add_subdirectory(feature2)
+add_subdirectory(feature3)
 
