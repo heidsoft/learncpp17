@@ -1,5 +1,6 @@
 ### C++ template
 # Prerequisites
+cmake-build-debug
 *.d
 
 # Compiled Object files
