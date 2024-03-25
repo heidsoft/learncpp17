@@ -28,7 +28,8 @@ MyClass createMyClass(int value) {
 
 // 不允许隐式转换
 MyClass createMyClassExplicit(int value) {
-    return explicit MyClass(value);
+    //return explicit MyClass(value);
+    return  MyClass(value);
 }
 
 int main() {

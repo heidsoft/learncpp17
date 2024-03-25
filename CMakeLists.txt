@@ -10,4 +10,5 @@ add_subdirectory(feature1)
 add_subdirectory(feature2)
 add_subdirectory(feature3)
 add_subdirectory(feature4)
+add_subdirectory(feature5)
 
